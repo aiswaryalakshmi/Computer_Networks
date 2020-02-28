@@ -10,10 +10,10 @@ import dns.dnssec
 ## How to run the program:
 
 ### Part-A:
-	<pre>
+<pre>
 			python partA.py <url> <request_type>
 	<b>example:</b>	python partA.py www.google.com A
-	</pre>
+</pre>
 ### Part-B:
 			python partB.py <url> <request_type>
 	**example:**	python partB.py verisigninc.com A
