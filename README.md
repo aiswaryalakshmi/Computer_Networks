@@ -127,3 +127,10 @@ Query time: 851.457 ms
 WHEN: 2019-09-26 21:34:02.432660
 MSG SIZE rcvd: 159
 </pre>
+
+## Findings
+
+Generally, the Google DNS server performed the best for all the sites queried. Interestingly, for some of the sites like Sohu.com, Taobao.com, Login.tmall.com, etc. the python DNS yielded better response than the default local DNS server(dig). 
+The Response Time of the three DNS are compared as below:
+
+![cdf](/images/cdf.png)
