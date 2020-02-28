@@ -15,5 +15,7 @@ import dns.dnssec
 	<b>example:</b>	python partA.py www.google.com A
 </pre>
 ### Part-B:
+<pre>
 			python partB.py &lt;url&gt; &lt;request_type&gt;
-	**example:**	python partB.py verisigninc.com A
+	<b>example:</b>	python partB.py verisigninc.com A
+</pre>
