@@ -31,6 +31,7 @@ For implementing DNSSEC, the code developed for PART-A has been enhanced as foll
 6.	Servers in which DNSSEC are not implemented send us back NSEC/NSEC3 records as response for our queries. The error message “DNSSEC not supported” is thrown for such servers and the process is stopped.
 
 ## EXPECTED OUTPUT:
+<pre>
 >>> 
  RESTART: C:\Users\Aiswarya\fcn_assignment1\renganathan-aiswarya lakshmi-HW1\partB.py 
 QUESTION SECTION:
@@ -38,6 +39,8 @@ www.google.com. 	 IN A
 
 ANSWER SECTION: 
 DNSSEC not supported
+</pre>
+<pre>
 >>> 
  RESTART: C:\Users\Aiswarya\fcn_assignment1\renganathan-aiswarya lakshmi-HW1\partB.py 
 QUESTION SECTION:
@@ -45,6 +48,8 @@ www.dnssec-failed.org. 	 IN A
 
 ANSWER SECTION: 
 DNSSEC verification failed
+</pre>
+<pre>
 >>> 
  RESTART: C:\Users\Aiswarya\fcn_assignment1\renganathan-aiswarya lakshmi-HW1\partB.py 
 QUESTION SECTION:
@@ -57,3 +62,4 @@ verisigninc.com. 3600 IN RRSIG A 8 2 3600 20191010185820 20190926185820 30234 ve
 Query time: 851.457 ms
 WHEN: 2019-09-26 21:34:02.432660
 MSG SIZE rcvd: 159
+</pre>
