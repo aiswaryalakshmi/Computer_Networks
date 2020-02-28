@@ -2,7 +2,7 @@
 
 ## External libraries used:
 
-import dns.query
+import dns.query <br>
 import dns.dnssec
 
 **NOTE:** The programs have been implemented in Python3.
@@ -10,9 +10,10 @@ import dns.dnssec
 ## How to run the program:
 
 ### Part-A:
+	<pre>
 			python partA.py <url> <request_type>
-	**example:**	python partA.py www.google.com A
-
+	<b>example:</b>	python partA.py www.google.com A
+	</pre>
 ### Part-B:
 			python partB.py <url> <request_type>
 	**example:**	python partB.py verisigninc.com A
